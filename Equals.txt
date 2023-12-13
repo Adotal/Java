@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Equals{
+  public static void main(String args[]){
+  String name = "", nameb = "";
+  Scanner in = new Scanner(System.in);
+  
+  System.out.println("Porfavor,ingresa el primer nombre");
+  name = in.nextLine();
+  System.out.println();
+  System.out.println();
+  System.out.println("Porfavor,ingresa el segundo nombre");
+  nameb = in.nextLine();
+ 
+  if(name.equalsIgnoreCase(nameb) ){
+    System.out.println("");
+    System.out.println("Los nombres son iguales");
+   } else {
+    System.out.println("Los nombres son distitos");
+   } 
+ }
+}

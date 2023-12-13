@@ -1,0 +1,35 @@
+public class Sucesion{
+public static void main(String args[]){
+  
+   System.out.println("Estructura repetitiva for:");
+   System.out.println("");
+   System.out.println("Sucesion del 4: ");
+   System.out.println("");
+   for(int i = 0; i <= 40; i+=4){
+    System.out.print(i + ",");
+  }
+   int o = 0;
+   System.out.println("");
+   System.out.println("");
+   System.out.println("Estructura repetitiva while:");
+   System.out.println("");
+   System.out.println("Sucesion del 5: "); 
+   System.out.println("");
+   
+   while(o <= 50){
+    System.out.print(o + ",");
+    o += 5;
+  }
+   int a = 1000;
+   System.out.println("");
+   System.out.println("");
+   System.out.println("Estructura repetitiva do while:");
+   System.out.println("");
+   System.out.println("Sucesion decreciente de 200 desde 1000: "); 
+   System.out.println("");
+   do{
+    System.out.print(a + ",");    
+    a-=200;
+  }while(a >= 0);
+ }
+}

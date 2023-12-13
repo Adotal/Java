@@ -1,0 +1,17 @@
+public class Vector{
+  public static void main(String args[]){
+  
+  String note[] = new String[5];
+  note[0] = 5;
+  note[1] = 220;
+  note[2] = 8;
+  note[3] = 458;
+  note[4] = 22;
+  System.out.print("[" + note[0] + "]");
+  System.out.print("[" + note[1] + "]");
+  System.out.print("[" + note[2] + "]");
+  System.out.print("[" + note[3] + "]");
+  System.out.print("[" + note[4] + "]");
+
+ }
+}
